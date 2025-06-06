@@ -2,6 +2,14 @@
 name = "everything-like"
 version = "0.1.0"
 edition = "2021"
+authors = ["onlyclxy <your-email@example.com>"]
+description = "A high-performance file search tool written in Rust, inspired by Everything software. Features fast file indexing, multiple view modes, thumbnail support, and multi-language interface."
+homepage = "https://github.com/onlyclxy/EverythingLike"
+repository = "https://github.com/onlyclxy/EverythingLike"
+license = "MIT"
+keywords = ["file-search", "everything", "windows", "file-manager", "rust"]
+categories = ["filesystem", "gui", "os::windows-apis"]
+readme = "README.md"
 
 [dependencies]
 windows = { version = "0.52", features = [
